@@ -1,29 +1,159 @@
-
-
-header{
-  background: white;
+body {
+	color: #FFFFFF;
+	padding: 1%;
+	margin: 2%;
 }
 
-h1{
-  text-align: center;
-  color: #FFFFFF;
-  text-transform: uppercase;
+
+
+
+
+/*Final Project/HW Assignment*/
+
+
+table {
+	margin-left: 15%;
+	text-align: center;
+	min-width: 800px;
 }
 
-h2{
-  color: #000080;
-  text-transform: uppercase;
+table tr{
+	background-color: #e2fab5;
+	padding: 10px;
+	font-family: monospace, serif;
+	opacity: .8;
+	font-size: 110%;
 }
 
-section{
-  background: #7f7f7f;
+table th {
+	background-color: #98bf64;
+	background: -moz-linear-gradient(#e2fab5 0%, #466d1d);
+	background: -webkit-linear-gradient(#e2fab5 0%, #466d1d);
+	background: linear-gradient(#e2fab5 0%, #466d1d);
+	color: #ffffff;
+	border: 1px solid;
+	border-color: #99edc3;
+	border-radius: 5px 5px 0 0;
+	border-bottom-width: thick;
+	padding: 7px;
 }
 
-a{
-  color: black;
-  background: #c5c5c5;
+
+table tr:first-child{
+	opacity: 1;
 }
 
-aside{
-  display: none;
+table td{
+	padding: 10px;
+	color: #466d1d;
+	border: .5px solid;
+	border-radius: 2px;
+	text-shadow: 1px 1px 2px #312113;
+}
+
+table td:first-child{
+	text-align: left;
+
+}
+
+table th:first-child{
+	text-align: left;
+}
+
+table tr:hover{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+	background-color:  #FA8073;
+	background-image: url('flywheel.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 50px;
+}
+
+nav a{
+	margin-left: 30px;
+	margin-right: 30px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.3);
+	position: relative;
+	top: 15px;
+	color: #000000;
+}
+
+.active {
+	background-color: rgba(255, 255, 255, 1);
+	color: #4b5320;
+}
+
+nav{
+	text-align: center;
+}
+
+main {
+	max-height: 600px;
+}
+
+h1, h2 {
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 110%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 120%;
+	color: #ffffff;
+	padding-top: 20px;
+}
+
+section {
+	color: #000000;
+	display: inline-block;
+	max-width: 800px;
+	padding: 5px;
+	position: relative;
+}
+
+
+.left {
+	background-color: #4b5320;
+	max-width: 220px;
+	max-height: 390px;
+	padding: 10px;
+	display: inline-block;
+	float: left;
+}
+
+.left img{
+	width: 150px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 2px;
+
 }
